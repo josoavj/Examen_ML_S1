@@ -1,0 +1,23 @@
+
+/* TipTap Specific styles */
+.ProseMirror {
+  outline: none;
+  min-height: 100%;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  color: #52525b; /* text-neutral-500 */
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+/* Base Prose styles without relying strictly on typography plugin which might be missing */
+.prose h1 { font-size: 2.25rem; line-height: 2.5rem; margin-top: 1.5em; margin-bottom: 0.5em; }
+.prose h2 { font-size: 1.875rem; line-height: 2.25rem; margin-top: 1.5em; margin-bottom: 0.5em; }
+.prose p { margin-top: 1.25em; margin-bottom: 1.25em; }
+.prose ul { list-style-type: disc; padding-left: 1.625em; }
+.prose ol { list-style-type: decimal; padding-left: 1.625em; }
+.prose blockquote { border-left-width: 0.25rem; border-color: #3b82f6; padding-left: 1em; font-style: italic; color: #a1a1aa; }
+.prose code { background-color: #27272a; padding: 0.2em 0.4em; border-radius: 0.25rem; font-size: 0.875em; }
