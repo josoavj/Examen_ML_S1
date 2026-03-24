@@ -1,17 +1,19 @@
-# [titre] – [type]
+<h1 align="center">MalagasyEditor</h1>
 
----
+<p align="center">
+  <strong>Une plateforme d'édition de texte, destiné aux utilisateurs malagasy</strong>
+</p>
 
 ## 👥 Équipe (ESIIA 5)
 | Nom | Numéro | Rôle |
 |----|------|--------|
-| RAVOAHANGY Laza Francky | 3 |   |
-| VONJINIAINA Josoa | 7 |   |
-| RAMANIRAKARISON Tolotriniaina Ishmayah | 9 |   |
-| ANDRIAMASINORO Aina Maminirina | 12 |   |
-| RABEMANANTSOA Fanilonombana Diana | 13 |   |
-| RAZANAJATOVO ANDRIANIMERINA Kinasaela | 16 |   |
-| RASOANAIVO Aro Itokiana | 20 |   |
+| RAVOAHANGY Laza Francky | 3 | ML  |
+| VONJINIAINA Josoa | 7 |  Back-end |
+| RAMANIRAKARISON Tolotriniaina Ishmayah | 9 | ML  |
+| ANDRIAMASINORO Aina Maminirina | 12 |  Back-end |
+| RABEMANANTSOA Fanilonombana Diana | 13 |  Front-end |
+| RAZANAJATOVO ANDRIANIMERINA Kinasaela | 16 |  ML |
+| RASOANAIVO Aro Itokiana | 20 | ML  |
 
 ---
 
@@ -47,7 +49,11 @@ npm install
 npm run dev
 ```
 
-### Backend (Développement)
+### Backend (Développement)<h1 align="center">🎓 LevelMind</h1>
+
+<p align="center">
+  <strong>Une plateforme d'e-learning innovante pour les écoles et universités</strong>
+</p>
 ```bash
 cd backend
 # Créer un venv
@@ -62,4 +68,4 @@ uvicorn main:app --reload
 
 ---
 
-**[Lien de l'application](#)**
+**Version finale :** **[Lien de l'application](#)**
